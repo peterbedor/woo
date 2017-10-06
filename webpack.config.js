@@ -1,11 +1,18 @@
-var path = require('path');
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
-    entry: './scripts/woo.js',
+    entry: {
+		app: './scripts/woo.js'
+	},
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'foo.bundle.js'
+        path: path.resolve(__dirname, 'public/js'),
+        filename: '[name].bundle.js'
     },
+	devServer: {
+		contentBase: './public'
+	},
     module: {
          loaders: [
              {
@@ -19,5 +26,6 @@ module.exports = {
      },
      stats: {
          colors: true
-     }
+     },
+	 watch: true
 };
