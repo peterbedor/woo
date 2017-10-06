@@ -1,0 +1,27 @@
+{
+  "name": "woo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/woo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterbedor/woo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterbedor/woo/issues"
+  },
+  "homepage": "https://github.com/peterbedor/woo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.6.0"
+  }
+}
