@@ -65,12 +65,9 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-
-
-console.log('hi');
+throw new Error("Module build failed: SyntaxError: /Users/peterbedorjr/Projects/work/woo/package.json: Error while parsing JSON - Unexpected token < in JSON at position 164\n    at JSON.parse (<anonymous>)\n    at ConfigChainBuilder.addConfig (/Users/peterbedorjr/Projects/work/woo/node_modules/babel-core/lib/transformation/file/options/build-config-chain.js:150:65)\n    at ConfigChainBuilder.findConfigs (/Users/peterbedorjr/Projects/work/woo/node_modules/babel-core/lib/transformation/file/options/build-config-chain.js:102:30)\n    at buildConfigChain (/Users/peterbedorjr/Projects/work/woo/node_modules/babel-core/lib/transformation/file/options/build-config-chain.js:61:13)\n    at OptionManager.init (/Users/peterbedorjr/Projects/work/woo/node_modules/babel-core/lib/transformation/file/options/option-manager.js:354:58)\n    at File.initOptions (/Users/peterbedorjr/Projects/work/woo/node_modules/babel-core/lib/transformation/file/index.js:212:65)\n    at new File (/Users/peterbedorjr/Projects/work/woo/node_modules/babel-core/lib/transformation/file/index.js:135:24)\n    at Pipeline.transform (/Users/peterbedorjr/Projects/work/woo/node_modules/babel-core/lib/transformation/pipeline.js:46:16)\n    at transpile (/Users/peterbedorjr/Projects/work/woo/node_modules/babel-loader/lib/index.js:50:20)\n    at Object.module.exports (/Users/peterbedorjr/Projects/work/woo/node_modules/babel-loader/lib/index.js:175:20)");
 
 /***/ })
 /******/ ]);
