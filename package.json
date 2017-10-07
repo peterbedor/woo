@@ -5,13 +5,9 @@
   "main": "scripts/woo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
     "serve": "webpack-dev-server --open",
-    "start": "webpack --watch --config webpack.config.js && webpack-dev-server --open"
-=======
-    "start": "webpack --config webpack.config.js",
+    "start": "webpack --watch --config webpack.config.js && webpack-dev-server --open",
     "serve": "webpack-dev-server --open"
->>>>>>> e0d8f5ce0577a65b1f0ee86d0d62ffa5536fe56b
   },
   "repository": {
     "type": "git",
@@ -23,10 +19,7 @@
     "url": "https://github.com/peterbedor/woo/issues"
   },
   "homepage": "https://github.com/peterbedor/woo#readme",
-<<<<<<< HEAD
-=======
   "dependencies": {},
->>>>>>> e0d8f5ce0577a65b1f0ee86d0d62ffa5536fe56b
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
