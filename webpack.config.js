@@ -7,8 +7,8 @@ module.exports = {
 		app: './scripts/app.js'
 	},
 	output: {
-		path: path.resolve(__dirname, 'public/js'),
-		filename: '[name].bundle.js'
+		path: path.resolve(__dirname, 'public'),
+		filename: 'js/[name].bundle.js'
 	},
 	devServer: {
 		contentBase: './public',
