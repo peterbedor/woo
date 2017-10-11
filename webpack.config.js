@@ -4,15 +4,22 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
 	entry: {
-		app: './scripts/woo.js'
+		app: './scripts/app.js'
 	},
 	output: {
 		path: path.resolve(__dirname, 'public/js'),
 		filename: '[name].bundle.js'
 	},
 	devServer: {
-		contentBase: './public'
+		contentBase: './public',
+		historyApiFallback: true
 	},
+	plugins: [
+		new CleanWebpackPlugin(['dist']),
+		new HtmlWebpackPlugin({
+			title: 'Development'
+		})
+	],
     module: {
          loaders: [
              {
@@ -26,6 +33,5 @@ module.exports = {
      },
 	stats: {
 		colors: true
-	},
-	watch: true
+	}
 };
